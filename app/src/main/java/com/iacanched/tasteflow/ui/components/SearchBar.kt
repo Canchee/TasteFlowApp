@@ -10,7 +10,6 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -24,9 +23,6 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.iacanched.tasteflow.ui.theme.AshGray
-import com.iacanched.tasteflow.ui.theme.Mint
-import com.iacanched.tasteflow.ui.theme.Orange200
 import com.iacanched.tasteflow.ui.theme.Orange500
 import com.iacanched.tasteflow.ui.theme.Orange900
 import com.iacanched.tasteflow.ui.theme.Russet

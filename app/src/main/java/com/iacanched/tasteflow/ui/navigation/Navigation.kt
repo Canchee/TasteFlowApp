@@ -10,8 +10,8 @@ import com.iacanched.tasteflow.ui.view.RecipeView
 
 @Composable
 fun Navigation(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = "home") {
-        composable(route = "home") {
+    NavHost(navController = navController, startDestination = "homeview") {
+        composable(route = "homeview") {
             HomeView(navController = navController)
         }
         composable(route = "recipe/{recipeId}"){
